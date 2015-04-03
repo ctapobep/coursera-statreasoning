@@ -24,4 +24,8 @@ unexposedToExposedOddsRatio = 1/exposedToUnexposedOddsRatio
 data = matrix(c(sum(exposed == 1), sum(exposed == 0),
                 sum(unexposed == 1), sum(unexposed == 0)),
               nrow = 2, byrow = TRUE)
+0.004/0.015
 epi.2by2(data)
+
+(10/1000) / (20/1000)
+10/1000 - 20/1000
